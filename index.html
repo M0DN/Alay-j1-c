@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ALAI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+    <div class="logo">
+      <img src="img/alay-logo.png" alt="logo">
+      </div>
+    </div>
+    <div class="navbar-right">
+      
+    </div>
+  </nav>
+
+  <main>
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+      
+      <input type="text" class="input-area" id="user-input" placeholder="Scrivi qualcosa..." />
+      <button id="send-btn">Invia</button>
+    </div>
+    
+  </main>
+<script src="https://unpkg.com/compromise@13.11.4/builds/compromise.min.js"></script>
+<script src="https://unpkg.com/compromise-dates/builds/compromise-dates.min.js"></script>
+<script src="https://unpkg.com/compromise-numbers/builds/compromise-numbers.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script src="data.js"></script> <!-- Deve contenere qaData -->
+<script src="script.js"></script> <!-- Questo file -->
+
+</body>
+</html>
